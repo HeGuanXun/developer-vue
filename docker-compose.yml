@@ -1,0 +1,15 @@
+version: '3'
+services:
+  sys-graph-mana:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      image: sys-graph-mana:latest
+    container_name: sys-graph-mana
+    restart: always
+    ports:
+      - 9082:80
+#    volumes:
+#      - /Users/zhjh/Documents/front/wwwroot:/usr/share/nginx/html
+#      - /Users/zhjh/Documents/front/nginx:/etc/nginx
+#      - /Users/zhjh/Documents/front/logs:/var/log/nginx

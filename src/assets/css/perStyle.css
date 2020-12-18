@@ -1,0 +1,128 @@
+/*
+人员主页
+ */
+.per-back-red{background-color: #ff0000;}
+.per-bor-red{border: 1px solid #ff0000;}
+.per-back-yellow{background-color: #FF9900;}
+.per-bor-yellow{border: 1px solid #FF9900;}
+.per-back-green{background-color: #00B286;}
+.per-bor-green{border: 1px solid #00B286;}
+.per-back-blue{background-color: #409EFF;}
+.per-bor-blue{border: 1px solid #409EFF;}
+/****/
+.per-right-link{
+  float: right;cursor: pointer; padding-left: 10px; font-weight: 400;
+}
+/****/
+.per-home{padding: 10px; background-color: #ffffff;}
+.per-home .head{margin: auto; width: 800px; margin-bottom: 10px}
+.per-home ul li{float: left; cursor: pointer; margin-right: 10px; width:170px; text-align: center; padding: 10px; transform: skewX(-20deg); border:1px solid #ccc;}
+.per-home ul li div{transform: skewX(20deg);}
+.per-home ul i{cursor: pointer; padding: 6px; border-radius: 4px; background-color: rgba(0,0,0,0.5);}
+.per-home ul .el-icon-menu{font-size: 24px; color: #ffffff;}
+/****/
+.per-card{padding: 5px; margin-bottom: 10px}
+.per-card-title{text-align: center; font-size: 16px; padding-bottom: 3px;}
+.per-card-title-bor{margin: auto; width: 120px; border-bottom: 2px solid #a5cbf6;}
+.per-card-vice{text-align: center;margin-top: 10px;}
+.per-card-vice-title{color: #ffffff;padding: 10px;}
+.per-card-vice-num{font-size: 30px;font-family: "庞门正道标题体";padding: 10px;}
+.per-card-vice-num-vice{color: #9c9c9c;font-size: 12px;padding-bottom: 5px;}
+/****/
+.per-center-card{border-radius: 4px;border: 1px solid #e7e7e7;text-align: center;padding: 10px;box-shadow: 3px 5px 10px #ABABAB; margin-bottom: 20px;}
+.per-center-card-title{font-size: 16px;font-weight: bold;white-space:nowrap; overflow: hidden}
+.per-center-card-num{padding: 10px;color: #ff0000;font-weight: bold;font-size: 16px;}
+.per-center-card-num-vice{font-size: 12px;}
+.per-center-card-num-vice span{margin-left: 5px;border: 1px solid #e7e7e7;border-radius: 4px;padding: 0px 10px 0px 5px;color: #ff0000;font-weight: bold;}
+/****/
+.per-title{font-weight: bold; width: 100%}
+
+
+/*
+列表页
+ */
+.per-pet-main{background-color: #ffffff;padding: 10px;overflow: auto; height: calc(100% - 0px)}
+.per-pet-pad-bot-10{padding-bottom: 10px;}
+.per-pet-pad-top-10{padding-top: 10px;}
+.per-pet-mar-rig-10{margin-right: 10px;}
+.per-pet-mar-rig-30{margin-right: 30px;}
+.per-pet-mar-bot-10{margin-bottom: 10px}
+.per-pet-mar-top-10{margin-top: 10px}
+.per-pet-mar-top-20{margin-top: 20px}
+.per-pet-font-16{font-size: 16px;}
+.per-pet-font-24{font-size: 24px;}
+.per-pet-font-36{font-size: 36px;}
+.per-pet-font-bold{font-weight: bold}
+.per-pet-right{float: right;}
+.per-pet-center{text-align: center;}
+.aui-wrapper .el-table th {color: #232323;background-color: transparent;}
+.el-table th {overflow: hidden;-ms-user-select: none;-webkit-user-select: none;-moz-user-select: none;user-select: none;background-color: transparent;}
+
+/*
+内容页
+ */
+.per-card-minwidth{min-width: 400px;}
+.per-card-minheight{min-height: 329px;}
+/* 个人信息 */
+.per-cont-user-main div{
+  padding-bottom: 12px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+/* 人员标签 */
+.per-cont-lable-main .el-tag{margin-bottom: 10px;}
+/* 历史评估 */
+.per-cont-history-title{border: 1px solid #009DD9; border-radius: 5px; padding: 2px 10px 2px 10px;}
+/* 上访信息统计 */
+.per-cont-petition-main{border-bottom: 1px solid #e7e7e7;overflow: hidden;margin-bottom: 20px;}
+.per-cont-petition-main div{padding-bottom: 15px;}
+.per-cont-petition-main-height{height: 180px;}
+.per-cont-petition-main-height-auto{height: auto;}
+/* 风险标签详情 */
+.per-cont-lable-container{
+
+}
+.per-cont-lable-title{padding-bottom: 5px;margin-bottom: 20px;border-bottom: 2px solid #a5cbf6;}
+.per-cont-lable-subtitle{border:3px dotted #ADADAD;height: 54px;width: 200px;text-align: center;margin-bottom: 2px;padding-top: 17px;color: #ffffff;background: #f95757;background-clip: padding-box;}
+.per-cont-lable-source{padding: 15px 0px 10px 0px;text-align: right;border-bottom: 1px solid #e7e7e7;}
+/* 人员基本信息标签 */
+.per-cont-user div{padding-bottom: 10px;}
+/* 反馈详情 */
+.per-cont-feedback div{padding-bottom: 20px;}
+/* 背审情况 */
+.per-cont-fraction{
+  border: 3px solid #FF0000; border-radius: 50%; width: 80px; height: 80px; line-height: 80px; text-align: center; color: #FF0000;margin: auto;
+}
+.per-font-height{line-height: 25px;}
+/* 入口 */
+.per-cont-entrance{cursor: pointer;width: 80px;height: 80px;padding: 23px 5px 15px 5px;position: absolute;right: 40px;bottom: 40px;border-radius: 50%;text-align: center;border: 3px solid #e7e7e7;box-shadow: 3px 5px 5px #A9A9A9;background-color: #469bf9;color: #fff;z-index: 10;}
+
+/* 模态框 */
+.per-model-division-title{margin-bottom: 10px; border-bottom: 1px solid #e7e7e7; padding-bottom: 8px; font-size: 16px; font-weight: bold;}
+
+
+/* 右上角卡片内容 */
+.per-pet-right-card-main-1{
+  position: absolute; right: 30px; height: 40px; top: 54px; width: 300px; overflow:hidden;
+}
+.per-pet-right-card-main-height{height: 120px;}
+.per-pet-right-card-main-list{border: 2px solid #1882F8; padding: 3px; margin-top: 2px;}
+.per-pet-right-card-theme{color: #1882F8; padding: 0px 5px 0px 5px;}
+.per-pet-right-card-day{font-size: 24px;font-weight: bold;color: #FF0000;padding: 0px 5px 0px 5px}
+
+
+/* 动态表格样式 */
+#tableStyle table{
+ width: 100%; text-align: center; border: 1px solid #dddddd; border-collapse:collapse;
+}
+#tableStyle table th{
+  background-color: #EFEFEF; padding-top: 10px; padding-bottom: 10px;
+}
+#tableStyle table th div{
+  border-right: 1px solid #dddddd; height: 25px; line-height: 25px;
+}
+#tableStyle table tr td{
+  padding: 30px 10px 30px 10px; border-bottom: 1px solid #dddddd;
+}
+
+
+/* 设置弹出层高度 */
+.per-dialog-div{height: 65vh;overflow: auto;overflow-x:hidden;box-sizing: border-box;}

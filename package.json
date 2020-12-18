@@ -1,0 +1,114 @@
+{
+  "name": "front-manager",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:sit": "vue-cli-service build --mode production.sit",
+    "build:uat": "vue-cli-service build --mode production.uat",
+    "build:prod": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint",
+    "et": "node_modules/.bin/et",
+    "et:init": "node_modules/.bin/et -i",
+    "et:list": "gulp themes"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-component": "^1.1.1",
+    "core-js": "^2.6.11",
+    "echarts": "^4.9.0",
+    "echarts-liquidfill": "^2.0.6",
+    "echarts-wordcloud": "^1.1.3",
+    "element-theme": "^2.0.1",
+    "element-theme-chalk": "^2.4.7",
+    "element-ui": "2.12.0",
+    "file-saver": "^2.0.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "heatmap.js": "^2.0.5",
+    "html2canvas": "^1.0.0-rc.7",
+    "js-cookie": "^2.2.0",
+    "jspdf": "^2.1.1",
+    "leaflet": "^1.7.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "node-sass": "^4.9.3",
+    "qs": "^6.5.2",
+    "quill": "^1.3.6",
+    "sass-loader": "^7.1.0",
+    "screenfull": "^3.3.3",
+    "svg-sprite-loader": "^4.1.1",
+    "vue": "^2.5.17",
+    "vue-baidu-map": "^0.21.22",
+    "vue-i18n": "^8.1.0",
+    "vue-pdf": "^4.1.0",
+    "vue-router": "^3.0.1",
+    "vue-xlsx-table": "^1.2.8",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "@vue/eslint-config-standard": "^3.0.4",
+    "babel-eslint": "8.0.1",
+    "compression-webpack-plugin": "^5.0.2",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mockjs": "^1.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "engines": {
+    "node": ">= 8.11.1",
+    "npm": ">= 5.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "element-theme": {
+    "config": "./src/element-ui/theme-variables.scss",
+    "out": "./src/element-ui/theme",
+    "minimize": true,
+    "browsers": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 10"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+// Base
+$base--line-height: 1.15;
+
+// Navbar
+$navbar--height: 50px;
+
+// Sidebar
+$sidebar--width: 230px;
+$sidebar--width-fold: 64px;
+$sidebar--background-color-dark: #263238;
+$sidebar--text-color-dark: #8a979e;
+$sidebar--menu-item-height: 48px;
+
+// Content
+$content--padding: 15px;
+$content--background-color: #f1f4f5;
+$content--card-header-height: 60px;
+$content--tabs-header-height: 38px;
+// Content, 填充整屏高度(非tabs状态) = 整屏高度 - 导航条高度 - aui-content上下内边距高度
+$content--fill-height: calc(100vh - #{$navbar--height} - #{$content--padding * 2});
+// Content, 填充整屏高度(是tabs状态) = 整屏高度 - 导航条高度 - tabs组件header高度 - tabs组件content上下内边距高度
+$content--fill-height-tabs: calc(100vh - #{$navbar--height} - #{$content--tabs-header-height} - #{$content--padding * 2});
+
+/*ui规范颜色*/
+$primary-color:#1882f8; // 主色调按钮、可以点击文字、提示信息
+$primary-color2:#232323; // 主要文字
+$secondary-color:#606060; // 次要信息提示
+$secondary-color2:#9c9c9c; // 次要弱化信息
+
+$gray-text-color:#cacaca; // 置灰文字信息
+$border-color:#e7e7e7; // 分割线、表格
+$split-line-color:#a5cbf6; // 模块分割线
+// 辅色
+$error-color:#f95757;
+$warming-color:#fb7c26;
+$yellow-color:#ffbf11;
+$info-color:#11bbec;
+/*ui规范颜色*/

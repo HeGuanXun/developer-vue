@@ -1,0 +1,38 @@
+@mixin sg-text-ecllipse($width){
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width:$width;
+}
+
+@mixin sg-flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin sg-flex-left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@mixin sg-flex-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin sg-flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin sg-flex-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
